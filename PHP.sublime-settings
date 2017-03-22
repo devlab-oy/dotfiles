@@ -1,0 +1,9 @@
+{
+  // "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+  "color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
+  "extensions":
+  [
+   "inc"
+  ],
+  "default_encoding": "Western (Windows 1252)"
+}
