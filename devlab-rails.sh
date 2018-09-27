@@ -10,7 +10,7 @@ fi
 curl --silent -o ~/.gemrc          https://raw.githubusercontent.com/devlab-oy/dotfiles/master/.gemrc
 curl --silent -o ~/.bundle/config  https://raw.githubusercontent.com/devlab-oy/dotfiles/master/.bundle/config
 
-cat > ~/.bash_profile << EOF
+cat >> ~/.bash_profile << EOF
 # Add rbenv to path
 export PATH="$HOME/.rbenv/bin:$PATH"
 
