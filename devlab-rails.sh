@@ -12,7 +12,7 @@ curl --silent -o ~/.bundle/config  https://raw.githubusercontent.com/devlab-oy/d
 
 cat >> ~/.zshrc << EOF
 # Add rbenv to path
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:\$PATH"
 
 # Load rbenv
 if command -v rbenv &> /dev/null; then eval "\$(rbenv init -)"; fi
